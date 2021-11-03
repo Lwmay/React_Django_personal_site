@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.scss';
+import './assets/css/material-dashboard.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

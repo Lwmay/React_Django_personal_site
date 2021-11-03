@@ -1,37 +1,37 @@
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import background from "../assets/img/main_img.png";
+import {NavLink} from "react-router-dom";
 
 const Home = () => {
   return (
-      <div className="home">
-          <nav>
-              <Navigation />
-          </nav>
-          <header>
-              <div className="banner">
-                  <div className="banner-left">
+      <div className="off-canvas-sidebar">
+          <Navigation />
+          <div className="wrapper wrapper-full-page">
+              <div className="page-header home-page header-filter"
+                   style={{ backgroundImage: `url(${background})` }}>
+                  <div className="content-center">
                       <p>Je suis</p>
-                      <h1>Laurent May</h1>
-                      <p>Collecter, traiter, analyser et présenter les données - pour assister tous les jours
-                          aux décisions business pour de meilleures performances.</p>
-                      <p>La Réunion</p>
+                      <h1 className="title">Laurent May</h1>
+                      <h2>Candidat pour un emploi de <b>Data Analyst</b> à la Réunion</h2>
+                      <div className="home-button">
+                          <NavLink exact to="/portfolio" className="nav-link-home">
+                              <button className="btn btn-warning">
+                                  Mes réalisations
+                              </button>
+                          </NavLink>
+                          <NavLink exact to="/a-propos" className="nav-link-home">
+                              <button className="btn btn-warning">
+                                  A propos de moi
+                              </button>
+                          </NavLink>
+                      </div>
                   </div>
+                  <footer>
+                      <Footer />
+                  </footer>
               </div>
-          </header>
-          <main>
-              <div className="main-topic">
-                  <ul>
-                      <li>Mes projets</li>
-                      <li>A propos de moi</li>
-                  </ul>
-              </div>
-              <div className="fast-contact">
-                  Formulaire Rapide
-              </div>
-          </main>
-          <footer>
-              <Footer />
-          </footer>
+          </div>
       </div>
   )
 }
