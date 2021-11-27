@@ -20884,8 +20884,8 @@ a .material-icons {
 .timeline>li>.timeline-panel {
   width: 45%;
   float: left;
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 20px 20px 5px;
+  margin-bottom: 5px;
   position: relative;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   border-radius: 6px;
