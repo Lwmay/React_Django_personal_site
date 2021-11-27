@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className="footer-cust">
             <div className="container">
                 <div className="copyright float-right">
                     &copy; Laurent May 2021

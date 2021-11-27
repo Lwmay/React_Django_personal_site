@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { NavLink } from "react-router-dom";
+import logo from "../assets/img/logo_transp_white.png";
 
 const Navigation = () => {
 
@@ -21,8 +22,11 @@ const Navigation = () => {
         <nav className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top text-white">
             <div className="container">
                 <div className="navbar-wrapper">
+                    
                     <NavLink exact to="/" className="navbar-brand">
-                        Laurent MAY
+                        <div className="nav-logo">
+                            <img src={logo} alt="profil" />
+                        </div>
                     </NavLink>
                 </div>
                 <button id="btn-toggle" className="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index"

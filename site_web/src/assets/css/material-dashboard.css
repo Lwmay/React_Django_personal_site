@@ -1001,6 +1001,7 @@ pre code {
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+    padding-top: 20px;
   }
 }
 
@@ -18210,145 +18211,6 @@ a .material-icons {
   font-weight: 700;
 }
 
-/*  --------------------------------------------------------------------------------  */
-/*  --------------------------------------------------------------------------------  */
-/*  ------------------------------ Personal CSS ------------------------------------  */
-/*  --------------------------------------------------------------------------------  */
-/*  --------------------------------------------------------------------------------  */
-
-
-/*  ----------  home page  ----------  */
-.home-page .title {
-  font-size: 6em;
-  color: #fff;
-  letter-spacing: 10px;
-  font-weight: 400;
-  margin-top: 1px;
-  margin-bottom: 40px;
-}
-
-.home-page h2 {
-  font-size: 2em;
-  color: #fff;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-
-.home-page p {
-  font-size: 1.2em;
-  color: #fff;
-  font-weight: 400;
-  margin-top: 20px;
-  margin-bottom: 1px;
-  text-align: left;
-  margin-left: 20%;
-}
-
-.home-button button {
-  margin-right: 2%;
-}
-
-/*  ----------  about page  ----------  */
-.page-header .content-about-page {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  z-index: 2;
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #FFFFFF;
-  padding: 0 0px;
-  width: 100%;
-  max-width: 1140px;
-}
-
-.about-page .title {
-  font-size: 3em;
-  font-weight: 400;
-  margin-top: 3vh;
-  margin-bottom: 40px;
-}
-
-.about-page h2 {
-  margin-top: 5vh;
-}
-
-/*  ----------  contact page  ----------  */
-.page-header .contact-page {
-  top: 25%;
-}
-
-.contact-page .card-title {
-  font-size: 3em;
-  font-weight: 400;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.contact-page .card-signup {
-  border-radius: 6px;
-  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-  margin-bottom: 100px;
-  padding: 40px 0px;
-  margin-top: 5vh;
-}
-
-.contact-page .sub-description {
-  color: #3C4858;
-  margin-top: 0.5vh;
-  margin-bottom: 0.5vh;
-}
-
-
-.input-group .sub-message {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  margin-left: 3.5vw;
-  margin-right: 3.5vw;
-  width: 100%;
-}
-
-.contact-subtitle {
-  margin-top: 4vh;
-  margin-bottom: 4vh;
-}
-
-/* ------------------------ GENERAL ----------------*/
-form .form-group .error {
-  display: none;
-  font-size: 0.8rem;
-  color: #f44336;
-}
-
-.empty-field::placeholder {
-  color: #f44336;
-}
-
-form .form-message {
-  font-size: 0.8rem;
-  color: #f44336;
-}
-
-.info-title {
-  font-weight: bold;
-}
-
-{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-/*  --------------------------------------------------------------------------------  */
-/*  --------------------------------------------------------------------------------  */
-
 .footer-big {
   padding: 1.875rem 0;
 }
@@ -29580,6 +29442,7 @@ select.selectpicker {
 
   .timeline>li>.timeline-badge {
     left: 5%;
+    
   }
 
   .timeline>li>.timeline-panel {
