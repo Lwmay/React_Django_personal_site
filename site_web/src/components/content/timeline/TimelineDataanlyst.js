@@ -80,8 +80,8 @@ const TimelineDatanalyst = () => {
                     </li>
                 </ul>
             </p>
-            <p>Répertoire national des certifications professionnelles</p>
-            <p>N° de fiche: RNCP34964</p>
+            <p>Répertoire national des certifications professionnelles - RNCP34964</p>
+            <p><a href="https://www.francecompetences.fr/recherche/rncp/34964/">En savoir plus</a></p>
         </div>
     );
 };
