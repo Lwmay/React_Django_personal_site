@@ -2,7 +2,7 @@ import React from 'react';
 
 const TimelineCertif = () => {
     return (
-                <div className="timeline-descrip">
+        <div className="timeline-descrip">
             <h5>Compétences :</h5>
             <p>
                 <ul>
@@ -47,6 +47,7 @@ const TimelineCertif = () => {
                     </li>
                 </ul>
             </p>
+            <p><a href="https://www.iata.org/en/training/courses/airline-revenue-management/talf51/en/">En savoir plus</a></p>
         </div>
     );
 };

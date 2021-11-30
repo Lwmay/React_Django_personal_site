@@ -303,3 +303,9 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/React_Django_personal_site.iml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml

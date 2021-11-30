@@ -5,6 +5,7 @@ import ContactForm from '../components/ContactForm';
 import Footer from "../components/Footer";
 import background from "../assets/img/about_02_img.png";
 import profilImg from "../assets/img/faces/profil_laurent_may .png";
+import AreaInterest from "../components/content/AreaInterest";
 
 const About = () => {
 
@@ -73,6 +74,8 @@ const About = () => {
                             </button>
                         </div>
                     </div>
+                    <hr></hr>
+                    <AreaInterest/>
                     <hr></hr>
                     <div className="content-about-page text-center">
                         <h3><b>Vous avez des questions ?</b></h3>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const TimelineARM = () => {
     return (
-                <div className="timeline-descrip">
+        <div className="timeline-descrip">
             <h5>Compétences :</h5>
             <p>
                 <ul>

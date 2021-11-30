@@ -57,6 +57,12 @@ const Navigation = () => {
                             </NavLink>
                         </li>
                         <li className="nav-item">
+                            <NavLink exact to="./contact" className="nav-link" onClick={toggleNavSmallScreen}>
+                                <i className="material-icons">mail</i>
+                                Mon CV
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
                             <a href="/a-propos" className="nav-link">
                                 <i className="material-icons">dashboard</i>
                                 LinkedIn
