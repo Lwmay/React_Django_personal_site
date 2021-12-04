@@ -10,62 +10,65 @@ const AreaInterest = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-lg-3 col-md-6">
-                    <div className="card card-pricing">
-                        <div className="card-body">
-                            <div className="card-icon icon-white ">
-                                <i className="material-icons">weekend</i>
-                            </div>
-                            <h3 className="card-title">Free</h3>
-                            <p className="card-description">This is good if your company size is between 2 and 10
-                                Persons.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-6">
-                    <div className="card card-pricing ">
-                        <h6 className="card-category"> Small Company</h6>
-                        <div className="card-body">
-                            <div className="card-icon icon-rose ">
-                                <i className="material-icons">home</i>
-                            </div>
-                            <h3 className="card-title">29$</h3>
-                            <p className="card-description">This is good if your company size is between 2 and 10
-                                Persons.</p>
-                        </div>
-                        <div className="card-footer justify-content-center ">
-                            <a href="#pablo" className="btn btn-round btn-rose">Choose Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-6">
+                <div className="col-lg-4 col-md-4 col-sm-8 col-xs-8">
                     <div className="card card-pricing card-plain">
-                        <h6 className="card-category"> Medium Company</h6>
-                        <div className="card-body">
-                            <div className="card-icon icon-white ">
-                                <i className="material-icons">business</i>
-                            </div>
-                            <h3 className="card-title">69$</h3>
-                            <p className="card-description">This is good if your company size is between 11 and 99
-                                Persons.</p>
-                        </div>
-                        <div className="card-footer justify-content-center ">
-                            <a href="#pablo" className="btn btn-round btn-white">Choose Plan</a>
+                        <div className="card-body-interest">
+                            <i className="material-icons">analytics</i>
+                            <h3 className="card-title">Data Analyst</h3>
+                            <p className="card-description">J'aime raconter une histoire. Aller au cœur d'un problème 
+                            et trouver une solution.</p>
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-6">
+                <div className="col-lg-4 col-md-4">
                     <div className="card card-pricing card-plain">
-                        <h6 className="card-category"> Extra Pack</h6>
-                        <div className="card-body">
-                            <div className="card-icon icon-white ">
-                                <i className="material-icons">account_balance</i>
-                            </div>
-                            <h3 className="card-title">159$</h3>
-                            <p className="card-description">This is good if your company size is 99+ Persons.</p>
+                        <div className="card-body-interest">
+                            <i className="material-icons">group</i>
+                            <h3 className="card-title">Machine learning</h3>
+                            <p className="card-description">Je suis passionné par l'apprentissage de la théorie qui pousse 
+                            la pointe du ML.</p>
                         </div>
-                        <div className="card-footer justify-content-center ">
-                            <a href="#pablo" className="btn btn-round btn-white">Choose Plan</a>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-4">
+                    <div className="card card-pricing card-plain">
+                        <div className="card-body-interest">
+                            <i className="material-icons">school</i>
+                            <h3 className="card-title">Machine learning</h3>
+                            <p className="card-description">Je suis passionné par l'apprentissage de la théorie qui pousse 
+                            la pointe du ML.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-3 col-md-8">
+                    <div className="card card-pricing card-plain">
+                        <div className="card-body-interest">
+                            <i className="material-icons">analytics</i>
+                            <h3 className="card-title">Data Analyst</h3>
+                            <p className="card-description">J'aime raconter une histoire. Aller au cœur d'un problème 
+                            et trouver une solution.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-3 col-md-8">
+                    <div className="card card-pricing card-plain">
+                        <div className="card-body-interest">
+                            <i className="material-icons">group</i>
+                            <h3 className="card-title">Machine learning</h3>
+                            <p className="card-description">Je suis passionné par l'apprentissage de la théorie qui pousse 
+                            la pointe du ML.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-3 col-md-8">
+                    <div className="card card-pricing card-plain">
+                        <div className="card-body-interest">
+                            <i className="material-icons">school</i>
+                            <h3 className="card-title">Machine learning</h3>
+                            <p className="card-description">Je suis passionné par l'apprentissage de la théorie qui pousse 
+                            la pointe du ML.</p>
                         </div>
                     </div>
                 </div>

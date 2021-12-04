@@ -15,9 +15,11 @@ const About = () => {
     }
 
     return (
-        <div className="off-canvas-sidebar">
+        <div className="off-canvas-sidebar" style={{
+            backgroundColor: 'blue'}}>
             <Navigation />
-            <div className="wrapper-full-page">
+            <div className="wrapper-full-page"  style={{
+            backgroundColor: 'blue'}}>
                 <div className="page-header-cust" style={{ backgroundImage: `url(${background})` }}>
                     <div className="container">
                         <h1 className="title">A propos de moi</h1>
