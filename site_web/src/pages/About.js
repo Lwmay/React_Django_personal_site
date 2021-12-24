@@ -15,12 +15,10 @@ const About = () => {
     }
 
     return (
-        <div className="off-canvas-sidebar" style={{
-            backgroundColor: 'blue'}}>
+        <div className="off-canvas-sidebar">
             <Navigation />
-            <div className="wrapper-full-page"  style={{
-            backgroundColor: 'blue'}}>
-                <div className="page-header-cust" style={{ backgroundImage: `url(${background})` }}>
+            <div className="wrapper-full-page">
+                <div className="page-header-cust header-filter" style={{ backgroundImage: `url(${background})` }}>
                     <div className="container">
                         <h1 className="title">A propos de moi</h1>
                         <h2>Candidat pour un emploi de <b>Data Analyst</b> à la Réunion</h2>
@@ -35,16 +33,10 @@ const About = () => {
                             <div className="profil-descrip col-md-8 ml-auto">
                                 <p className="sub-title">Bonjour, je suis</p>
                                 <h3><b>Laurent MAY</b></h3>
-                                <p>Je suis Data Analyst avec des compétences en logiciels BI, programmation et logiciels bureautiques. 
+                                <p>Je suis Data Analyst avec des compétences en analyse de données, logiciels BI, programmation et logiciels bureautiques. 
                                     Je suis expérimenté dans le traitement des données, des requêtes et l'optimisation des process.</p>
-                                <p>Quelques choses intéressantes sur moi. J'adore lire de la science-fiction (mon préféré est Dune de Frank Herbert). 
-                                    Je suis aussi un joueur passionné. J'aime jouer à des jeux de stratégie compétitifs et à des jeux de tir à la 
-                                    première personne. Enfin, j'aime apprendre. Chaque jour, je me pousse à apprendre quelque chose de nouveau, 
-                                    que ce soit sur l'apprentissage automatique, le génie logiciel ou divers faits sur l'univers. En plus de me marier 
-                                    récemment et d'avoir obtenu un master en informatique à l'UT Dallas, j'ai récemment commencé à travailler 
-                                    en tant que data scientist senior chez Capital One. 
-                                    Mon travail consiste principalement à utiliser le traitement du langage naturel pour créer une expérience client 
-                                    plus intelligente.</p>
+                                <p>Chaque jour, je me pousse à apprendre quelque chose de nouveau, 
+                                    que ce soit sur l'apprentissage automatique, le génie logiciel ou divers faits sur l'univers du Data.</p>
                                 <p>Début 2018, je ne savais pas où allait ma vie. Après une réflexion personnelle sérieuse sur mes passions et mes intérêts, 
                                     je me suis engagé à apprendre tout ce que je pouvais sur l'apprentissage automatique, la science des données et 
                                     l'industrie technologique. Après avoir obtenu une maîtrise en informatique de l'UT Dallas et une année de travail 

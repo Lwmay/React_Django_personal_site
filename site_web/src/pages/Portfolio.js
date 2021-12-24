@@ -16,7 +16,7 @@ const Portfolio = () => {
         <div className="off-canvas-sidebar">
             <Navigation />
             <div className="wrapper-full-page">
-                <div className="page-header-cust" style={{ backgroundImage: `url(${background})` }}>
+                <div className="page-header-cust header-filter" style={{ backgroundImage: `url(${background})` }}>
                     <div className="container">
                         <h1 className="title">Mes réalisations</h1>
                         <h2>Retrouvé ici un aperçu de mes projets</h2>
