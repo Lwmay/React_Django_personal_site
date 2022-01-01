@@ -161,7 +161,7 @@ const Timeline = () => {
                                 </div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h4>Maîtrise de Biologie et Génome</h4>
+                                        <h4>Licence Sciences et Ingénierie, mention Biologie</h4>
                                     </div>
                                     <div className="timeline-body">
                                         <div className="location">

@@ -13,7 +13,7 @@ const Home = () => {
                   <div className="content-center">
                       <p>Je suis</p>
                       <h1 className="title">Laurent May</h1>
-                      <h2>Candidat pour un emploi de <b>Data Analyst</b> à la Réunion</h2>
+                      <h2>Candidat pour un poste de <b>Data Analyst</b> à la Réunion</h2>
                       <div className="home-button">
                           <NavLink exact to="/portfolio" className="nav-link-home">
                               <button className="btn btn-warning">

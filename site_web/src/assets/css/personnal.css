@@ -275,8 +275,14 @@ form .form-message {
 }
 
 .timeline .timeline-panel .timeline-descrip {
-    text-align: left;
+    text-align: justify;
 }
+
+.timeline .timeline-panel .timeline-descrip .sub-title {
+    font-weight: bold
+}
+
+
 
 /* ========================== INTEREST ========================== */
 .card-body-interest i {

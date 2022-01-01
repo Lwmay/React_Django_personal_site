@@ -4,7 +4,7 @@ import Timeline from "../components/Timeline";
 import ContactForm from '../components/ContactForm';
 import Footer from "../components/Footer";
 import background from "../assets/img/about_02_img.png";
-import profilImg from "../assets/img/faces/profil_laurent_may .png";
+import profilImg from "../assets/img/faces/profil_laurent_may.png";
 import AreaInterest from "../components/content/AreaInterest";
 
 const About = () => {
@@ -37,12 +37,6 @@ const About = () => {
                                     Je suis expérimenté dans le traitement des données, des requêtes et l'optimisation des process.</p>
                                 <p>Chaque jour, je me pousse à apprendre quelque chose de nouveau, 
                                     que ce soit sur l'apprentissage automatique, le génie logiciel ou divers faits sur l'univers du Data.</p>
-                                <p>Début 2018, je ne savais pas où allait ma vie. Après une réflexion personnelle sérieuse sur mes passions et mes intérêts, 
-                                    je me suis engagé à apprendre tout ce que je pouvais sur l'apprentissage automatique, la science des données et 
-                                    l'industrie technologique. Après avoir obtenu une maîtrise en informatique de l'UT Dallas et une année de travail 
-                                    chez Capital One, je suis officiellement devenu Data Scientist au sein de l'organisation de financement automobile 
-                                    de Capital One. Ici, j'utilise mes connaissances en ingénierie d'apprentissage automatique pour créer des systèmes 
-                                    intelligents afin d'améliorer l'expérience client.</p>
                                 <div className="home-button">
                                     <button className="btn btn-warning">
                                         Mes réalisations
@@ -51,8 +45,6 @@ const About = () => {
                                         Contactez moi
                                     </button>
                                 </div>
-                                <p>Collecter, traiter, analyser et présenter les données - pour assister tous les jours
-                                    aux décisions business pour de meilleures performances.</p>
                             </div>
                         </div>
                     </div>
