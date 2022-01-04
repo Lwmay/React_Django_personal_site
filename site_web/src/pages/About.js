@@ -24,7 +24,7 @@ const About = () => {
                 <div className="page-header-cust header-filter" style={{ backgroundImage: `url(${background})` }}>
                     <div className="container">
                         <h1 className="title">A propos de moi</h1>
-                        <h2>Candidat pour un emploi de <b>Data Analyst</b> à la Réunion</h2>
+                        <h2>Candidat pour un poste de <b>Data Analyst</b> à la Réunion</h2>
                     </div>
                 </div>
                 <div className="intro">
