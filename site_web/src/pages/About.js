@@ -6,6 +6,9 @@ import Footer from "../components/Footer";
 import background from "../assets/img/about_02_img.png";
 import profilImg from "../assets/img/faces/profil_laurent_may.png";
 import AreaInterest from "../components/content/AreaInterest";
+import CvButton from '../components/buttons/CvButton';
+import ContactButton from '../components/buttons/ContactButton';
+import PortfolioButton from '../components/buttons/PortfolioButton';
 
 const About = () => {
 
@@ -38,12 +41,8 @@ const About = () => {
                                 <p>Chaque jour, je me pousse à apprendre quelque chose de nouveau, 
                                     que ce soit sur l'apprentissage automatique, le génie logiciel ou divers faits sur l'univers du Data.</p>
                                 <div className="home-button">
-                                    <button className="btn btn-warning">
-                                        Mes réalisations
-                                    </button>
-                                    <button className="btn btn-warning">
-                                        Contactez moi
-                                    </button>
+                                    <PortfolioButton/>
+                                    <ContactButton/>
                                 </div>
                             </div>
                         </div>
@@ -55,9 +54,7 @@ const About = () => {
                             <Timeline/>
                         </div>
                         <div className="home-button">
-                            <button className="btn btn-warning">
-                                Téléchargez mon CV
-                            </button>
+                            <CvButton/>
                         </div>
                     </div>
                     <hr></hr>

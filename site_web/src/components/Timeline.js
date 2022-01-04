@@ -25,9 +25,6 @@ const Timeline = () => {
         <div className="row">
             <div className="col-md-12">
                 <div className="card card-timeline card-plain">
-                    <div className="card-title">
-                        <a href="/">Voir plus</a>
-                    </div>
                     <div className="card-body">
                         <ul className="timeline">
                             <li>
@@ -106,7 +103,7 @@ const Timeline = () => {
                                             <p>IATA</p>
                                         </div>
                                         <div className="dating">
-                                            <p>Décembre 2013</p>
+                                            <p>Septembre 2018</p>
                                         </div>
                                         <div className="timeline-icon close icon-center" id="cert-icon-show">
                                                 <i className="material-icons" onClick={
@@ -137,7 +134,7 @@ const Timeline = () => {
                                             <p>Air Austral</p>
                                         </div>
                                         <div className="dating">
-                                            <p>Juin 2008 - Février 2013</p>
+                                            <p>Novembre 2008 - Février 2013</p>
                                         </div>
                                         <div className="timeline-icon close icon-center" id="call-icon-show">
                                                 <i className="material-icons" onClick={
@@ -170,7 +167,6 @@ const Timeline = () => {
                                         <div className="dating">
                                             <p>2007</p>
                                         </div>
-                                        <i className="material-icons">keyboard_arrow_down</i>
                                     </div>
                                 </div>
                             </li>

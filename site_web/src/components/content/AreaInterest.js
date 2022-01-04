@@ -15,8 +15,8 @@ const AreaInterest = () => {
                         <div className="card-body-interest">
                             <i className="material-icons">analytics</i>
                             <h3 className="card-title">Data Analyst</h3>
-                            <p className="card-description">J'aime raconter une histoire. Aller au cœur d'un problème 
-                            et trouver une solution.</p>
+                            <p className="card-description">J'aime raconter l'histoire des données et aller au cœur d'un problème 
+                                pour trouver une solution.</p>
                         </div>
                     </div>
                 </div>
@@ -24,9 +24,8 @@ const AreaInterest = () => {
                     <div className="card card-pricing card-plain">
                         <div className="card-body-interest">
                             <i className="material-icons">group</i>
-                            <h3 className="card-title">Machine learning</h3>
-                            <p className="card-description">Je suis passionné par l'apprentissage de la théorie qui pousse 
-                            la pointe du ML.</p>
+                            <h3 className="card-title">Collaboration</h3>
+                            <p className="card-description">J'aime travailler en équipe pour créer des stratégies gagnantes.</p>
                         </div>
                     </div>
                 </div>
@@ -35,40 +34,8 @@ const AreaInterest = () => {
                         <div className="card-body-interest">
                             <i className="material-icons">school</i>
                             <h3 className="card-title">Machine learning</h3>
-                            <p className="card-description">Je suis passionné par l'apprentissage de la théorie qui pousse 
-                            la pointe du ML.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-lg-3 col-md-8">
-                    <div className="card card-pricing card-plain">
-                        <div className="card-body-interest">
-                            <i className="material-icons">analytics</i>
-                            <h3 className="card-title">Data Analyst</h3>
-                            <p className="card-description">J'aime raconter une histoire. Aller au cœur d'un problème 
-                            et trouver une solution.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-8">
-                    <div className="card card-pricing card-plain">
-                        <div className="card-body-interest">
-                            <i className="material-icons">group</i>
-                            <h3 className="card-title">Machine learning</h3>
-                            <p className="card-description">Je suis passionné par l'apprentissage de la théorie qui pousse 
-                            la pointe du ML.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-8">
-                    <div className="card card-pricing card-plain">
-                        <div className="card-body-interest">
-                            <i className="material-icons">school</i>
-                            <h3 className="card-title">Machine learning</h3>
-                            <p className="card-description">Je suis passionné par l'apprentissage de la théorie qui pousse 
-                            la pointe du ML.</p>
+                            <p className="card-description">Je suis passionné par les méthodes d'apprentissage qui interviennent 
+                                dans le machine learning.</p>
                         </div>
                     </div>
                 </div>

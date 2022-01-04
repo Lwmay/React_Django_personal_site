@@ -24,10 +24,6 @@ const Portfolio = () => {
                 </div>
                 <div className="intro">
                     <div className="prof-exp content-about-page text-center">
-                        <h3><b>Mon expérience</b></h3>
-                        <div>
-                            <p>gygygygyg</p>
-                        </div>
                         <DataAnalystExp />
                     <div className="home-button">
                         <button className="btn btn-warning">
