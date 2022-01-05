@@ -5,6 +5,8 @@ import ContactForm from '../components/ContactForm';
 import Footer from "../components/Footer";
 import background from "../assets/img/about_02_img.png";
 import profilImg from "../assets/img/faces/profil_laurent_may.png";
+import AreaSkills from '../components/content/AreaSkills';
+import AreaSoftSkills from '../components/content/AreaSoftSkills';
 import AreaInterest from "../components/content/AreaInterest";
 import CvButton from '../components/buttons/CvButton';
 import ContactButton from '../components/buttons/ContactButton';
@@ -36,7 +38,7 @@ const About = () => {
                             <div className="profil-descrip col-md-8 ml-auto">
                                 <p className="sub-title">Bonjour, je suis</p>
                                 <h3><b>Laurent MAY</b></h3>
-                                <p>Je suis Data Analyst avec des compétences en analyse de données, logiciels BI, programmation et logiciels bureautiques. 
+                                <p>Data Analyst avec des compétences en analyse de données, logiciels BI, programmation et logiciels bureautiques. 
                                     Je suis expérimenté dans le traitement des données, des requêtes et l'optimisation des process.</p>
                                 <p>Chaque jour, je me pousse à apprendre quelque chose de nouveau, 
                                     que ce soit sur l'apprentissage automatique, le génie logiciel ou divers faits sur l'univers du Data.</p>
@@ -49,7 +51,7 @@ const About = () => {
                     </div>
                     <hr></hr>
                     <div className="prof-exp content-about-page text-center">
-                        <h3><b>Mon expérience</b></h3>
+                        <h2>Mon expérience</h2>
                         <div>
                             <Timeline/>
                         </div>
@@ -57,9 +59,15 @@ const About = () => {
                             <CvButton/>
                         </div>
                     </div>
+
+                    <hr></hr>
+                    <AreaSkills/>
+                    <hr></hr>
+                    <AreaSoftSkills/>
                     <hr></hr>
                     <AreaInterest/>
                     <hr></hr>
+                    
                     <div className="content-about-page text-center">
                         <h3><b>Vous avez des questions ?</b></h3>
                         <p>Pour plus d'informations, n'hésitez pas à me contacter.</p>

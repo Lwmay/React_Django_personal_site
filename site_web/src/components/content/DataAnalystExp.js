@@ -1,34 +1,30 @@
 import React from 'react';
+import ONCFM_logo from "../../assets/img/portfolioImg/ONCFM_logo.png";
+import poule_chante from "../../assets/img/portfolioImg/la_poule_qui_chante.png";
 
 const DataAnalystExp = () => {
     return (
         <div>
-            <div className="card">
-                <div className="card-header">Header</div>
-                <div class="card-body">
-                    <h3>COUCOU</h3>
-                    <p className="card-description">ngmifdhgfksldhgk</p>
-                </div>
-                <div className="card-footer justify-content-center ">
-                    jgmkfshgmlkdf
-                </div>
-                <p>fbdjgfqjkd</p>
-
-            </div>
             <div className="card-exp">
                 <div className="card mb-3">
                     <div className="row no-gutters">
-                        <div className="col-md-4">
-                            <p>fsdgfd</p>
+                        <div className="portfolio-sub-img col-md-3">
+                            <img src={ONCFM_logo} alt="ONCFM"/>
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-7">
                             <div className="card-body">
                                 <h4 className="card-title">Détecter des faux billets avec Python</h4>
                                 <p className="card-text">Vous êtes data analyst chez Laplace Immo, un réseau national d’agences immobilières. 
                                 Le directeur général est sensible depuis quelque temps à l’importance des données, et il pense que l’agence 
                                 doit se démarquer de la concurrence en créant un modèle pour mieux prévoir le prix de vente des biens immobiliers. </p>
                             </div>
-                            <i className="material-icons">keyboard_arrow_down</i>
+                        </div>
+                        <div className="portfolio-btn col-md-2">
+                            <a href="https://github.com/Lwmay/detecteur_faux_billets" target="_blank" rel="noreferrer">
+                                <button className="btn btn-info">
+                                    Voir le projet
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -36,40 +32,27 @@ const DataAnalystExp = () => {
             <div className="card-exp">
                 <div className="card mb-3">
                     <div className="row no-gutters">
-                        <div className="col-md-4">
-                            <p>fsdgfd</p>
+                        <div className="portfolio-sub-img col-md-3">
+                        <img src={poule_chante} alt="Poule qui chante"/>
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-7">
                             <div className="card-body">
                                 <h4 className="card-title">Etude de marché</h4>
                                 <p className="card-text">Vous êtes data analyst chez Laplace Immo, un réseau national d’agences immobilières. 
                                 Le directeur général est sensible depuis quelque temps à l’importance des données, et il pense que l’agence 
                                 doit se démarquer de la concurrence en créant un modèle pour mieux prévoir le prix de vente des biens immobiliers. </p>
                             </div>
-                            <i className="material-icons">keyboard_arrow_down</i>
+                        </div>
+                        <div className="portfolio-btn col-md-2">
+                            <a href="https://github.com/Lwmay/etude_de_marche" target="_blank" rel="noreferrer">
+                                <button className="btn btn-info">
+                                    Voir le projet
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="card-exp">
-                <div className="card mb-3">
-                    <div className="row no-gutters">
-                        <div className="col-md-4">
-                            <p>fsdgfd</p>
-                        </div>
-                        <div className="col-md-8">
-                            <div className="card-body">
-                                <h4 className="card-title">Etude sur l'eau potable</h4>
-                                <p className="card-text">Vous êtes data analyst chez Laplace Immo, un réseau national d’agences immobilières. 
-                                Le directeur général est sensible depuis quelque temps à l’importance des données, et il pense que l’agence 
-                                doit se démarquer de la concurrence en créant un modèle pour mieux prévoir le prix de vente des biens immobiliers. </p>
-                            </div>
-                            <i className="material-icons">keyboard_arrow_down</i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
         </div>
     );
 };
