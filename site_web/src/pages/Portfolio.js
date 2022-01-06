@@ -25,27 +25,25 @@ const Portfolio = () => {
                 <div className="intro">
                     <div className="prof-exp content-about-page text-center">
                         <DataAnalystExp />
-                    <div className="home-button">
-                        <button className="btn btn-warning">
-                                Téléchargez mon CV
-                            </button>
-                        </div>
                     </div>
-                    <hr></hr>
-                    <div className="content-about-page text-center">
-                        <h3><b>Vous avez des questions ?</b></h3>
-                        <p>Pour plus d'informations, n'hésitez pas à me contacter.</p>
-                        <div className="about-page-contact button" id="show-button">
-                            <button className="btn btn-warning" onClick={showForm}>
-                                Contactez moi
-                            </button>    
-                        </div>
-                        <div className="about-page-contact hidden" id="form-card">
-                            <div className="card">
-                                <ContactForm/>
+                    
+                    <div className='portfolio-contact'>
+                        <hr></hr>
+                        <div className="content-about-page text-center">
+                            <h3><b>Vous êtes à la recherche d'un Data Analyst ?</b></h3>
+                            <div className="about-page-contact button" id="show-button">
+                                <button className="btn btn-warning" onClick={showForm}>
+                                    Contactez moi
+                                </button>    
+                            </div>
+                            <div className="about-page-contact hidden" id="form-card">
+                                <div className="card">
+                                    <ContactForm/>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
             <Footer />

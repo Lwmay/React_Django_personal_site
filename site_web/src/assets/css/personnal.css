@@ -53,6 +53,11 @@ Material Dashboard Pro - v2.2.1 CSS version
 =====================================
 =========== portfolio page ==========  
 */
+
+.portfolio-contact {
+    margin-top: 50px;
+}
+
 .portfolio .container {
     width: 100%;
     padding-right: 15px;
@@ -60,6 +65,14 @@ Material Dashboard Pro - v2.2.1 CSS version
     margin-right: auto;
     margin-left: auto;
     margin-top: 200px;
+}
+
+.card-exp .card {
+    min-height: 120px;
+}
+
+.card-exp .card-title {
+    margin-bottom: 15px;
 }
 
 .card-exp .portfolio-sub-img {
