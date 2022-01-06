@@ -44,7 +44,7 @@ const Navigation = () => {
                                 Portfolio
                             </NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink exact to="./a-propos" className="nav-link" onClick={toggleNavSmallScreen}>
                                 <i className="material-icons">person</i>
                                 A propos de moi
