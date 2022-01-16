@@ -1,6 +1,6 @@
 import datetime
 
-from batchReport.models import BatchExecution
+from batchReport.models import BatchModel
 
 
 class BatchReport:
@@ -16,7 +16,7 @@ class BatchReport:
         self.init_batch()
 
     def init_batch(self):
-        batch = BatchExecution(
+        batch = BatchModel(
             start_time=self._params['start_time'],
             end_time=self._params['end_time'],
             job_name=self._params['job_name'],
@@ -40,7 +40,7 @@ class BatchReport:
         self.next()
 
     def next(self):
-        obj = BatchExecution.objects.order_by('-id')[0]
+        obj = BatchModel.objects.order_by('-id')[0]
         obj.start_time = self._params['start_time']
         obj.end_time = self._params['end_time']
         obj.job_name = self._params['job_name']
