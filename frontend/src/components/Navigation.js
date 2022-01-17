@@ -57,14 +57,14 @@ const Navigation = () => {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink exact to="./contact" className="nav-link" onClick={toggleNavSmallScreen}>
-                                <i className="material-icons">mail</i>
+                            <a href={"./content/files/CV_may_laurent.pdf"} download="CV_may_laurent" className="nav-link">
+                                <i className="material-icons">assignment_ind</i>
                                 Mon CV
-                            </NavLink>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a href="/a-propos" className="nav-link">
-                                <i className="material-icons">dashboard</i>
+                            <a href="http://www.linkedin.com/in/laurent-may/" className="nav-link">
+                                <i className="material-icons">work</i>
                                 LinkedIn
                             </a>
                         </li>
