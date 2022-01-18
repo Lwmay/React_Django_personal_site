@@ -33,7 +33,7 @@ const Timeline = () => {
                                 </div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h4>Validation Data Analyst</h4>
+                                        <h4>Formation Data Analyst</h4>
                                     </div>
                                     <div className="timeline-body">
                                         <div className="location">

@@ -38,10 +38,12 @@ const About = () => {
                             <div className="profil-descrip col-md-8 ml-auto">
                                 <p className="sub-title">Bonjour, je suis</p>
                                 <h3><b>Laurent MAY</b></h3>
-                                <p>Data Analyst avec des compétences en analyse de données, logiciels BI, programmation et logiciels bureautiques. 
-                                    Je suis expérimenté dans le traitement des données, des requêtes et l'optimisation des process.</p>
+                                <p>Data Analyst avec des compétences en logiciels BI (Power BI, Tableau), programmation 
+                                    (Python, Java), et logiciels d'analyses (Excel, KNIME) . Je suis expérimenté dans 
+                                    le traitement des données, des requêtes (SQL) et l'optimisation des process.</p>
                                 <p>Chaque jour, je me pousse à apprendre quelque chose de nouveau, 
-                                    que ce soit sur l'apprentissage automatique, le génie logiciel ou divers faits sur l'univers du Data.</p>
+                                    que ce soit sur l'apprentissage automatique, le génie logiciel ou divers faits sur 
+                                    l'univers du Data.</p>
                                 <div className="home-button">
                                     <PortfolioButton/>
                                     <ContactButton/>

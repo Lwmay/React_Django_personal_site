@@ -7,38 +7,49 @@ const TimelineARM = () => {
             <p>
                 <ul>
                     <li>
-                        Collecter les données à partir de différentes sources (internes et externes).
+                        <strong>Analyses prédictives :</strong> 
+                        <p>J'ai collecté les données des vols à partir extraction de 
+                            base de données, d'extraction d'outil BI, API et outil de benchmark, pour les 
+                            préparer à être utilisées dans les analyses prédictives. Cela a permis de prendre 
+                            en compte de multiples variables dans la prise de décision.
+                        </p>
                     </li>
                     <li>
-                        Création de reportings synthétiques à destination des commerciaux, aux managers et partenaires
-                        de développement logiciel.
+                        <strong>Création d'un programme d'automatisation :</strong> 
+                        <p>Afin de communiquer les résultats d'exercice de la semaine et du mois, j'ai créé 
+                            un programme d'automatisation pour l'émission de reportings synthétiques à 
+                            destination des commerciaux et aux managers et répondre rapidement aux demandes 
+                            (gain de 3 jours).
+                        </p>   
                     </li>
                     <li>
-                        Analyse des différentes statistiques de trafic et de réservation.
+                        <strong>Optimisation de la recette :</strong> 
+                        <p>Pour maintenir et de trouver des améliorations du chiffre d'affaire, j'ai optimisé 
+                            l'offre par rapport à la demande avec des analyses prédictives 
+                            (outil BI, programme python), ce qui m'a permis de faire des analyses plus précises 
+                            et de proposer des actions marketings argumentées.
+                        </p>   
                     </li>
                     <li>
-                        Optimisation des tarifs et challenge des services commerciaux.
+                        <strong>Administration d'un outil de cotation :</strong> 
+                        <p>J'ai développé les fonctionnalités de ce dernier conjointement avec les équipes de 
+                            développement (Amadeus). Cela a permis de proposer des cotations automatisées sur 
+                            des lignes qui ne l'étaient pas et gagner en réactivité (gain d'une semaine).
+                        </p>   
                     </li>
                     <li>
-                        Actions de réajustement pour l’optimisation de la recette.
+                        <strong>Administration d'un outil de cotation :</strong> 
+                        <p>J'ai développé les fonctionnalités de ce dernier conjointement avec les équipes de 
+                            développement (Amadeus). Cela a permis de proposer des cotations automatisées sur 
+                            des lignes qui ne l'étaient pas et gagner en réactivité (gain d'une semaine).
+                        </p>   
                     </li>
                     <li>
-                        Création d'un outil BI en python (full stack) d'aide à l'optimisation de la recette des vols.
-                    </li>
-                    <li>
-                        Collaboration avec les developpeurs d'application pour la mise en place de solutions logiciels
-                        de cotations des billets.
-                    </li>
-                    <li>
-                        Optimisation et création de procedures pour améliorer le process de traitement des demandes de
-                        tarifs et de réservations entre différents services.
-                    </li>
-                    <li>
-                        Implémentation d'automatisation en VBA pour les fichiers Excel pour le suivis des KPIs à
-                        destination de la Direction.
-                    </li>
-                    <li>
-                        Formation et sensibilisation des équipes sur les outils.
+                        <strong>Formation et sensibilisation :</strong> 
+                        <p>Lors du déploiement des différents outils de cotations et d'analyses, j'ai formé et 
+                            sensibilisé les équipes, ce qui a augmenté le temps d'analyses et de réponse de c
+                            otation de billets aux clients.
+                        </p>   
                     </li>
                 </ul>
             </p>
