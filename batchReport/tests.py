@@ -1,6 +1,5 @@
 import time
 from django.test import TestCase
-from batchReport.api.serializer import BatchReportSerializer
 from batchReport.core.batchReport import BatchReport
 
 from batchReport.models import BatchModel
