@@ -277,6 +277,7 @@ form .form-message {
   
 .intro .profil-descrip {
     margin: auto;
+    text-align: justify;
 }
 
 .intro .profil-descrip .sub-title {
@@ -350,11 +351,76 @@ form .form-message {
 .card-body-interest .card-title{
     margin-top: 5px;
 }
+
 /* ========================== FOOTER ========================== */
 .off-canvas-sidebar .footer-cust .container{
     width: 100%;
     margin-bottom: 50px;
   }
-  
+
+/* ========================== AZG ETL Page ========================== */
+.intro .azg_logo img{
+    width: 100%;
+}
+
+.intro .azg_data_brut img{
+    width: 40%;
+    margin-top: 40px;
+}
+
+.intro .azg_mcp img{
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.intro .azg_talend_init img{
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.intro .azg_talend_commune_trans img{
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.intro .azg_commune_id img{
+    width: 50%;
+}
+
+.intro .azg_talend_context img{
+    width: 35%;
+}
+
+.intro .azg_talend_routine img{
+    width: 70%;
+}
+
+.intro .azg_talend_tMap img{
+    width: 70%;
+}
+
+
+.intro p{
+    text-align: justify;
+}
+
+.intro .quote{
+    color: darkgreen;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.plus_haut{
+    text-align: right;
+}
+
+
 /*  --------------------------------------------------------------------------------  */
 /*  --------------------------------------------------------------------------------  */

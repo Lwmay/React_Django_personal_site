@@ -90,3 +90,12 @@ class UploadDataFilteredCase(TestCase):
     def test_cols_filter(self):
         colres = list((Counter(colnames)-Counter(colnames_not_use)).elements())
         self.assertListEqual(list(self.data.columns), colres)
+
+class UploadCsvCompressedFileCase(TestCase):
+
+    def test_open_csv(self):
+        try:
+            upload = Uploader('https://www.insee.fr/fr/statistiques/fichier/4316069/departement2020-csv.zip')
+            self.data = upload.proceed()
+        except IOError as e:
+            print(e)

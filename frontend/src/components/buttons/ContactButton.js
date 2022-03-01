@@ -1,13 +1,14 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 const ContactButton = () => {
 
     return (
-        <a href={"/contact"}>
+        <NavLink exact to="./contact">
             <button className="btn btn-warning">
                 Contactez moi
             </button>
-        </a>
+        </NavLink>
     );
 };
 

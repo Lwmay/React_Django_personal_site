@@ -1,13 +1,14 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 const PortfolioButton = () => {
 
     return (
-        <a href={"/portfolio"}>
+        <NavLink exact to="./portfolio">
             <button className="btn btn-warning">
                 Mes réalisations
             </button>
-        </a>
+        </NavLink>
     );
 };
 

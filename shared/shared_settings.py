@@ -6,4 +6,4 @@ Shared configuration.
 APP_LIST = ['azgimmo']
 
 # List of file type available for importing data
-IMPORT_FILE_TYPE = ['.csv', '.xlsx', '.txt']
+IMPORT_FILE_TYPE = ['.csv', '.xlsx', '.txt', '.zip']

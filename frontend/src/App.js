@@ -5,6 +5,7 @@ import NotFound from "./pages/NotFound";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import AZGEtl from './pages/AZGImmo/ETL'
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
                 <Route path="/portfolio" exact component={Portfolio} />
                 <Route path="/a-propos" exact component={About} />
                 <Route path="/contact" exact component={Contact} />
+                <Route path="/azg_etl" exact component={AZGEtl} />
                 <Route component={NotFound} />
             </Switch>
         </BrowserRouter>

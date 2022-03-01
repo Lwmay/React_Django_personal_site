@@ -72,7 +72,6 @@ const About = () => {
                     
                     <div className="content-about-page text-center">
                         <h3><b>Vous avez des questions ?</b></h3>
-                        <p>Pour plus d'informations, n'hésitez pas à me contacter.</p>
                         <div className="about-page-contact button" id="show-button">
                             <button className="btn btn-warning" onClick={showForm}>
                                 Contactez moi
