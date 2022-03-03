@@ -401,6 +401,12 @@ form .form-message {
     width: 70%;
 }
 
+.intro .azg_viz img{
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 
 .intro p{
     text-align: justify;

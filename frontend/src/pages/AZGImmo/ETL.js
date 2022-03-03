@@ -14,7 +14,7 @@ import azg_talend_context from "../../assets/img/AZG/AZG_context.png";
 import azg_talend_tJavaFlex from "../../assets/img/AZG/AZG_Talend_tJavaFlex.png";
 import azg_talend_routine from "../../assets/img/AZG/AZG_routine_commune.png";
 import azg_talend_tMap from "../../assets/img/AZG/AZG_Talend_tMap.png";
-
+import AZG_Viz from "../../assets/img/AZG/AZG_Viz.png";
 
 
 const AZGEtl = () => {
@@ -242,6 +242,20 @@ const AZGEtl = () => {
                             Studio et les composants disponibles nativement.
                         </p>
                         
+                        <h3>Visualisation rapide</h3>
+                        <p className='azg_viz text-center'>
+                            <img src={AZG_Viz} alt="AZG_Viz" />
+                        </p>
+                        <p>
+                            Les données sont ensuite exploitées à l'aide de <b>Tableau Descktop</b> pour la réalisation rapide d'un dashboard. Celui permet de 
+                            sélectionner une commune et visualiser les secteurs ou quatiers les plus porteurs.
+                        </p>
+                        <p>
+                            Vous pouvez consulter le dashboard à l'adresse suivante : 
+                            <a href="https://public.tableau.com/app/profile/laurent.may/viz/Tableau_AZG/Tableaudebord1">
+                                Dashboard AZG Immobilier.</a>
+                        </p>
+
                         <p className='plus_haut'><a href="#section_further_up">Remontrer en haut</a></p>
 
                         <hr></hr>
