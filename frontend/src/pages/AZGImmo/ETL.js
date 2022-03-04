@@ -261,7 +261,6 @@ const AZGEtl = () => {
                         <hr></hr>
                         <div className="content-about-page text-center">
                             <h3><b>Vous avez besoin d'un Data Analyst</b></h3>
-                            <p>N'hésitez pas à me contacter.</p>
                             <div className="about-page-contact button" id="show-button">
                                 <button className="btn btn-warning" onClick={showForm}>
                                     Contactez moi

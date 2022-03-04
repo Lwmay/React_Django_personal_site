@@ -6,6 +6,7 @@ import fao_logo from "../../assets/img/portfolioImg/fao_logo.png";
 import lapage_logo from "../../assets/img/portfolioImg/logo_lapage.png";
 import dwfa_logo from "../../assets/img/portfolioImg/DWFA_logo.png";
 import azg_logo from "../../assets/img/AZG/AZG_immo_logo.png";
+import knime_logo from "../../pages/Knime_egalite/img/Knime_logo.png"
 
 const DataAnalystExp = () => {
     return (
@@ -28,6 +29,32 @@ const DataAnalystExp = () => {
                         </div>
                         <div className="portfolio-btn col-md-2">
                             <NavLink exact to="/azg_etl" className="navbar-brand">
+                                <button className="btn btn-info">
+                                    Voir le projet
+                                </button>
+                            </NavLink>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="card-exp">
+                <div className="card mb-3">
+                    <div className="row no-gutters">
+                        <div className="portfolio-sub-img col-md-3">
+                            <img src={knime_logo} alt="knime_logo"/>
+                        </div>
+                        <div className="col-md-7">
+                            <div className="card-body">
+                                <h4 className="card-title">ANALYSE DES INDICATEURS DE L'EGALITE FEMME-HOMME AVEC KNIME</h4>
+                                <p className="card-text">
+                                    Processus ETL et respect RGPD : regroupement cohérent de données.
+                                    <br/>
+                                    <b>KNIME</b>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="portfolio-btn col-md-2">
+                            <NavLink exact to="/knime_egalite" className="navbar-brand">
                                 <button className="btn btn-info">
                                     Voir le projet
                                 </button>

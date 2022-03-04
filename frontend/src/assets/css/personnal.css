@@ -407,6 +407,36 @@ form .form-message {
     margin-bottom: 40px;
 }
 
+/* ========================== KNIME Page ========================== */
+
+.intro .knime_logo img{
+    width: 100%;
+    margin-top: 40px;;
+}
+
+.intro .Knime_enjeux img{
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.intro .Knime_indicateurs img{
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.intro .Knime_donnees img{
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.intro .Knime_work1 img{
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.intro .Knime_extract img{
+    width: 50%;
+}
 
 .intro p{
     text-align: justify;
@@ -425,6 +455,8 @@ form .form-message {
 
 .plus_haut{
     text-align: right;
+    margin-top: 50px;
+    font-style: italic;
 }
 
 
