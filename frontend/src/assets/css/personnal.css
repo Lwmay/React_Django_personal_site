@@ -11,11 +11,7 @@ Material Dashboard Pro - v2.2.1 CSS version
 
  =======================================================================================
 
- */
 
-
-/*
-================================
 =========== home page ==========  
 */
 .home-page .title {
@@ -50,7 +46,6 @@ Material Dashboard Pro - v2.2.1 CSS version
 }
   
 /* 
-=====================================
 =========== portfolio page ==========  
 */
 
@@ -98,7 +93,6 @@ Material Dashboard Pro - v2.2.1 CSS version
 }
 
 /* 
-=====================================
 =========== about page ============== 
 */
   
@@ -134,7 +128,6 @@ Material Dashboard Pro - v2.2.1 CSS version
 }
 
 /* 
-=======================================
 =========== contact page ============== 
 */
 
@@ -179,7 +172,6 @@ Material Dashboard Pro - v2.2.1 CSS version
 }
 
 /* 
-====================================================================
 ============================ GENERAL ===============================
 */
   
@@ -264,6 +256,8 @@ form .form-message {
 .intro {
     padding: 10px;
 }
+
+/* ========================== Profil About ========================== */
   
 .intro .profil {
     text-align: center;
@@ -364,7 +358,7 @@ form .form-message {
 }
 
 .intro .azg_data_brut img{
-    width: 40%;
+    width: 50%;
     margin-top: 40px;
 }
 
@@ -406,6 +400,8 @@ form .form-message {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+
 
 /* ========================== KNIME Page ========================== */
 
@@ -457,6 +453,15 @@ form .form-message {
     text-align: right;
     margin-top: 50px;
     font-style: italic;
+}
+
+
+/* ========================== Mobile size ========================== */
+
+@media (max-width: 992px) {
+    .intro .img_mobile img {
+      width: 100%;
+    }
 }
 
 

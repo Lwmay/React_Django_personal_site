@@ -55,7 +55,7 @@ const KNIME_egalite = () => {
                             importante, et il est important d’avoir une politique volontariste pour développer l’égalité femmes-hommes. 
                             Cela nous permettra d’améliorer la marque employeur et d’attirer plus facilement des talents.
                         </p>
-                        <p className='Knime_enjeux text-center'>
+                        <p className='Knime_enjeux img_mobile text-center'>
                             <img src={Knime_enjeux} alt="Knime_enjeux" />
                         </p>
 
@@ -66,7 +66,7 @@ const KNIME_egalite = () => {
                                   (Présentation de l'outil Diagnostic Egalité)</a>. 
                             On y retrouve les indicateurs à surveiller. Pour simplifier le projet, je vais choisir les indicateurs suivants :
                         </p>
-                        <p className='Knime_indicateurs text-center'>
+                        <p className='Knime_indicateurs img_mobile text-center'>
                             <img src={Knime_indicateurs} alt="Knime_indicateurs" />
                         </p>
                         <p>
@@ -82,7 +82,7 @@ const KNIME_egalite = () => {
                             Je dispose de 3 jeux de données dans lesquels, on retrouve les informations nécessaires à mon analyse. Certaines sont sensibles 
                             du point de vue de la RGPD :
                         </p>
-                        <p className='Knime_donnees text-center'>
+                        <p className='Knime_donnees img_mobile text-center'>
                             <img src={Knime_donnees} alt="Knime_donnees" />
                         </p>
 
@@ -119,7 +119,7 @@ const KNIME_egalite = () => {
                                 </li>
                             </ul>
                         </p>
-                        <p className='Knime_work1 text-center'>
+                        <p className='Knime_work1 img_mobile text-center'>
                             <img src={Knime_work1} alt="Knime_work1" />
                         </p>
                         <p>
@@ -143,7 +143,7 @@ const KNIME_egalite = () => {
                             </ul>
                         </p>
 
-                        <p className='Knime_extract text-center'>
+                        <p className='Knime_extract img_mobile text-center'>
                             <img src={Knime_extract} alt="Knime_extract" />
                         </p>
                         <p>

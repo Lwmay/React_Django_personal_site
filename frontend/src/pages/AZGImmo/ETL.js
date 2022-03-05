@@ -75,7 +75,7 @@ const AZGEtl = () => {
                             Ce dernier permet de centraliser les données avec leurs caractéristiques et d'avoir une bonne compréhension de 
                             celles-ci. Parmis les données fournies, je vais sélectionner les données à extraire pour nos futurs 
                             analyses. Une première exploration nous donne un aperçu :
-                        <p className='azg_data_brut text-center'>
+                        <p className='azg_data_brut img_mobile text-center'>
                             <img src={azg_init_data} alt="azg_init_data" />
                         </p>
                             Les variables suivantes ne seront pas intégrées car leurs valeurs sont null : 
@@ -111,7 +111,7 @@ const AZGEtl = () => {
                             "Code commune". Leurs concaténation, nous donne l'identifiant de la commune correspondant à notre variable <b>COM</b> de l'INSEE 
                             (ci-dessus).
                         </p>
-                        <p className='azg_commune_id text-center'>
+                        <p className='azg_commune_id img_mobile text-center'>
                             <img src={azg_commune_id} alt="azg_commune_id" />
                         </p>
                         <p>
@@ -158,7 +158,7 @@ const AZGEtl = () => {
                                 Celle-ci dont disponibles au lien suivant : <a href="https://www.insee.fr/fr/information/5057840">Code officiel géographique
                             </a>.
                         </p>
-                        <p className='azg_mcp text-center'>
+                        <p className='azg_mcp img_mobile text-center'>
                             <img src={azg_MCP} alt="azg_MCP" />
                         </p>
 
@@ -181,14 +181,14 @@ const AZGEtl = () => {
                             dans lequel j'ai entreposé ces 2 fichiers. Je défni les schémas des inputs sur lesquels nous sélectionnons les variables dont 
                             j'aurai besoin.
                         </p>
-                        <p className='azg_talend_context text-center'>
+                        <p className='azg_talend_context img_mobile text-center'>
                             <img src={azg_talend_context} alt="azg_talend_context" />
                         </p>
                         <p>
                             J'utilise deux composants <b>tMap</b> à la suite des <b>tFileInputDelimited </b>. Ils permettent de ne récupérer que les données 
                             qui nous seront utiles et de créer les clés primaires.
                         </p>
-                        <p className='azg_talend_init text-center'>
+                        <p className='azg_talend_init img_mobile text-center'>
                             <img src={azg_talend_init} alt="azg_talend_init" />
                         </p>
                         
@@ -201,7 +201,7 @@ const AZGEtl = () => {
                             identifié que ces différences viennent d'ancien code commune contenus dans les données de DVF. Afin de traiter 
                             ce problème, j'ai récupéré des données sur les mouvements de communes auprés de l'INSEE. Ces données nous renseignent 
                             sur les changements de numéro de communes, des changements de noms, ... 
-                            <p className='azg_talend_commune_trans text-center'>
+                            <p className='azg_talend_commune_trans img_mobile text-center'>
                             <img src={azg_talend_commune_trans} alt="azg_talend_commune_trans" />
                         </p>
                             A partir de là, j'ai utilisé le composant 
@@ -212,12 +212,12 @@ const AZGEtl = () => {
                                 <li>Code de fin : création d'une variable globale de type Hashmap;</li>
                             </ul>  
                         </p>
-                        <p className='azg_talend_init text-center'>
+                        <p className='azg_talend_init img_mobile text-center'>
                             <img src={azg_talend_tJavaFlex} alt="azg_talend_tJavaFlex" />
                         </p>
 
                         <h5>Transactions immobilière :</h5>
-                        <p className='azg_talend_init text-center'>
+                        <p className='azg_talend_init img_mobile text-center'>
                             <img src={azg_talend_input} alt="azg_talend_input" />
                         </p>
                         <p>
@@ -228,13 +228,13 @@ const AZGEtl = () => {
                         <p>
                             Dans le premier <b>tMap</b>, j'utilise une routine pour nos "commune_id" qui utilise notre dictionnaire de commune:
                         </p>
-                        <p className='azg_talend_routine text-center'>
+                        <p className='azg_talend_routine img_mobile text-center'>
                             <img src={azg_talend_routine} alt="azg_talend_routine" />
                         </p>
                         <p>
                             La répartition des données dans les tables se fait grâce à un second <b>tMap</b> :
                         </p>
-                        <p className='azg_talend_tMap text-center'>
+                        <p className='azg_talend_tMap img_mobile text-center'>
                             <img src={azg_talend_tMap} alt="azg_talend_tMap" />
                         </p>
                         <p>L'exploration initiales des données disponibles a permis de définir les besoins et poser les premières pierres de mon flux d'intégration. 
@@ -243,7 +243,7 @@ const AZGEtl = () => {
                         </p>
                         
                         <h3>Visualisation rapide</h3>
-                        <p className='azg_viz text-center'>
+                        <p className='azg_viz img_mobile text-center'>
                             <img src={AZG_Viz} alt="AZG_Viz" />
                         </p>
                         <p>

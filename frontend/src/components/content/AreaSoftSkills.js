@@ -8,7 +8,7 @@ const AreaSoftSkills = () => {
                 <div className="col-md-6 ml-auto mr-auto text-center">
                     <h2 className="title">Mes soft skills</h2>
                 </div>
-                <div className='soft_skills_img'>
+                <div className='soft_skills_img img_mobile'>
                     <img src={soft_skills_img} alt="soft skills"/>
                 </div>
             </div>
