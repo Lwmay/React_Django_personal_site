@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -9,7 +10,11 @@ const Footer = () => {
                     <script>
                         document.write(new Date().getFullYear())
                     </script>
-                    , made with fun by me in React and Django.
+                    , made with fun by me in React and Django. 
+                    - 
+                    <NavLink exact to="/mentions" className="mentions">
+                                    Mentions légales
+                    </NavLink>
                 </div>
             </div>
         </footer>
