@@ -47,7 +47,7 @@ const TimelineARM = () => {
                     <li>
                         <strong>Formation et sensibilisation :</strong> 
                         <p>Lors du déploiement des différents outils de cotations et d'analyses, j'ai formé et 
-                            sensibilisé les équipes, ce qui a augmenté le temps d'analyses et de réponse de c
+                            sensibilisé les équipes, ce qui a reduit le temps d'analyse et de réponse de c
                             otation de billets aux clients.
                         </p>   
                     </li>
