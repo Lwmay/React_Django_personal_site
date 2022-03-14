@@ -247,7 +247,7 @@ const AZGEtl = () => {
                             <img src={AZG_Viz} alt="AZG_Viz" />
                         </p>
                         <p>
-                            Les données sont ensuite exploitées à l'aide de <b>Tableau Descktop</b> pour la réalisation rapide d'un dashboard. Celui permet de 
+                            Les données sont ensuite exploitées à l'aide de <b>Tableau Desktop</b> pour la réalisation rapide d'un dashboard. Celui permet de 
                             sélectionner une commune et visualiser les secteurs ou quatiers les plus porteurs.
                         </p>
                         <p>
