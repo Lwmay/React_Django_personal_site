@@ -204,18 +204,42 @@ form .form-message {
     width: 140px;
 }
 
+.off-canvas-sidebar .navbar-toggler .navbar-toggler-icon{
+    background-color:#3C4858 !important;
+    color:#3C4858 !important;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar .navbar-collapse .navbar-nav .nav-item{
+        color: white!important
+    }
+}
+
+
 /* ========================== PAGES ========================== */
 .wrapper-full-page {
     background-color: #fff;
+    margin-top: 4em;
 }
 
+.wrapper-full-page h1{
+    text-align: left;
+}
+
+.wrapper-full-page h2{
+    font-size: 1.7rem;
+}
+
+.wrapper-full-page h3{
+    font-size: 1.4rem;
+}
 
 .off-canvas-sidebar .wrapper-full-page .page-header-cust {
     padding: 15vh 0 !important;
 }
 
 .content-about-page {
-    margin: 30px auto;
+    margin: 50px auto;
     max-width: 1140px;
 }
 
@@ -259,6 +283,38 @@ form .form-message {
   
 .intro {
     padding: 10px;
+}
+
+.sidekick {
+    margin: 2em 8em 2em 8em;
+    position: relative;
+    padding-left: 1em;
+    border-left: 0.2em solid #039be5;
+    font-family: 'Roboto', serif;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+@media (max-width: 992px) {
+    .sidekick {
+        margin: 10px;
+    }
+}
+
+.code-quote {
+    margin: 2em 8em 2em 8em;
+    position: relative;
+    padding-left: 1em;
+    font-family: 'Roboto', serif;
+    line-height: 1.5em;
+    font-weight: 400;
+    background-color: #f6f6f6;
+}
+
+@media (max-width: 992px) {
+    .quote {
+        margin: 10px;
+    }
 }
 
 /* ========================== Profil About ========================== */
@@ -399,12 +455,15 @@ form .form-message {
     width: 70%;
 }
 
+.intro .img_middle img{
+    width: 60%;
+}
+
 .intro .azg_viz img{
     width: 70%;
     margin-top: 40px;
     margin-bottom: 40px;
 }
-
 
 
 /* ========================== KNIME Page ========================== */

@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Mentions from "./pages/Mentions";
 import AZGEtl from './pages/AZGImmo/ETL'
 import KNIME_egalite from './pages/Knime_egalite/Knime_egalite';
+import AZGBank from './pages/AZGBank/AZG_bank'
 
 const App = () => {
     return (
@@ -20,6 +21,7 @@ const App = () => {
                 <Route path="/mentions" exact component={Mentions} />
                 <Route path="/azg_etl" exact component={AZGEtl} />
                 <Route path="/knime_egalite" exact component={KNIME_egalite} />
+                <Route path="/azg_bank" exact component={AZGBank} />
                 <Route component={NotFound} />
             </Switch>
         </BrowserRouter>

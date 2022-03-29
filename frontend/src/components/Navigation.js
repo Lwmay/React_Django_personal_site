@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import React, {useState, forwardRef, useImperativeHandle} from 'react';
 import { NavLink } from "react-router-dom";
-import logo from "../assets/img/logo_transp_white.png";
+import logo_white from "../assets/img/logo_transp.png";
 
-const Navigation = () => {
+const Navigation = forwardRef((props, ref) => {
 
     const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -19,13 +19,12 @@ const Navigation = () => {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top text-white">
+        <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container">
                 <div className="navbar-wrapper">
-                    
                     <NavLink exact to="/" className="navbar-brand">
                         <div className="nav-logo">
-                            <img src={logo} alt="profil" />
+                            <img src={logo_white} alt='profil' />
                         </div>
                     </NavLink>
                 </div>
@@ -73,6 +72,6 @@ const Navigation = () => {
             </div>
         </nav>
     );
-};
+})
 
 export default Navigation;

@@ -7,10 +7,37 @@ import lapage_logo from "../../assets/img/portfolioImg/logo_lapage.png";
 import dwfa_logo from "../../assets/img/portfolioImg/DWFA_logo.png";
 import azg_logo from "../../assets/img/AZG/AZG_immo_logo.png";
 import knime_logo from "../../pages/Knime_egalite/img/Knime_logo.png"
+import azg_bank_logo from "../../pages/AZGBank/img/AZG_bank_logo.png"
 
 const DataAnalystExp = () => {
     return (
         <div>
+            <div className="card-exp">
+                <div className="card mb-3">
+                    <div className="row no-gutters">
+                        <div className="portfolio-sub-img col-md-3">
+                            <img src={azg_bank_logo} alt="AZG_logo"/>
+                        </div>
+                        <div className="col-md-7">
+                            <div className="card-body">
+                                <h4 className="card-title">Data et Campagnes Marketing</h4>
+                                <p className="card-text">
+                                    Bientôt
+                                    <br/>
+                                    <b>Python- Pandas - Matplotlib - Machine learning</b>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="portfolio-btn col-md-2">
+                            <NavLink exact to="/azg_bank" className="navbar-brand">
+                                <button className="btn btn-info">
+                                    Voir le projet
+                                </button>
+                            </NavLink>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="card-exp">
                 <div className="card mb-3">
                     <div className="row no-gutters">

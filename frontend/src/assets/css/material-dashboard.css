@@ -13814,7 +13814,7 @@ fieldset[disabled] .form-group .form-control {
 }
 
 .navbar .navbar-toggler .navbar-toggler-icon {
-  background-color: #555;
+  background-color:#555;
 }
 
 .navbar.fixed-top {
@@ -13900,6 +13900,7 @@ fieldset[disabled] .form-group .form-control {
   outline: 0;
   display: block;
   border-radius: 1px;
+  background-color: red;
 }
 
 .navbar .navbar-toggler .navbar-toggler-icon+.navbar-toggler-icon {
@@ -29754,7 +29755,7 @@ select.selectpicker {
   .navbar-toggler .icon-bar {
     display: block;
     position: relative;
-    background: #555 !important;
+    background: red!important;
     width: 24px;
     height: 2px;
     border-radius: 1px;

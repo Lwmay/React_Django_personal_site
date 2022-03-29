@@ -155,7 +155,7 @@ const KNIME_egalite = () => {
                         <p>
                             Retrouvez la visualisation des données et le rapport au lien suivant : 
                             <a href="./content/files/knime/Knime_rapport.pdf">
-                                  télécharchez mon rapport</a>
+                                télécharchez mon rapport</a>
                         </p>
 
                         <p className='plus_haut'><a href="#section_further_up">Remontrer en haut</a></p>

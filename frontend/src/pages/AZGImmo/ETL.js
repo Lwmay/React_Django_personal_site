@@ -28,12 +28,6 @@ const AZGEtl = () => {
         <div className="off-canvas-sidebar">
             <Navigation />
             <div className="wrapper-full-page">
-                <div className="page-header-cust header-filter" style={{ backgroundImage: `url(${background})` }}>
-                    <div className="container">
-                        <h1 className="title">AZG IMMOBILIER</h1>
-                        <h2>Utiliser Talend pour la Data Integration</h2>
-                    </div>
-                </div>
                 <div className="intro azg">
                     <div className="content-about-page">
                         <div className="row">
@@ -42,7 +36,7 @@ const AZGEtl = () => {
                             </div>
                             <div className="profil-descrip col-md-8 ml-auto">
                                 <p id="section_further_up"></p>
-                                <h3><b>PROJET DE DATA INTEGRATION</b></h3>
+                                <h1><b>PROJET DE DATA INTEGRATION</b></h1>
                                 <p>
                                     <i>(Projet perso)</i>   
                                 </p>
@@ -62,11 +56,11 @@ const AZGEtl = () => {
                             caractéristiques des biens (surface habitable, nombre de pièces, ...).
                         </p>
 
-                        <h3><b>Données et exploration</b></h3>
+                        <h2><b>Données et exploration</b></h2>
                         <p>
                              
                         </p>
-                        <h4><b>Fichiers Transactions Immobilières</b></h4>
+                        <h3><b>Fichiers Transactions Immobilières</b></h3>
                         <p>Les données disponibles des transactions immobilières sont sous format CSV téléchargables sur le 
                             <a href="https://www.data.gouv.fr/fr/datasets/5c4ae55a634f4117716d5656/"> site open data des DVF</a>. 
                             Le dictionnaire des données est disponible sur le 
@@ -89,7 +83,7 @@ const AZGEtl = () => {
                         <p>
                             .
                         </p>
-                        <h4><b>Les communes et départements</b></h4>
+                        <h3><b>Les communes et départements</b></h3>
                         <p>
                             La nomenclature des adresses postales, me suggère qu'il existe des doublons dans la description des 
                             adresses comme les départements, les communes et les code postaux. Les données sur les "Commune" et "Departement" 
@@ -139,7 +133,7 @@ const AZGEtl = () => {
                             .
                         </p>
 
-                        <h3><b>Modèle physique des données</b></h3>
+                        <h2><b>Modèle physique des données</b></h2>
                         <p>
                             Afin de structurer de notre base de données, j'ai réalisé un <b>Modèle Physique des
                             Données (MCP)</b>. Cela me permet de définir les différentes tables, leurs attributs et les relations 
@@ -162,13 +156,13 @@ const AZGEtl = () => {
                             <img src={azg_MCP} alt="azg_MCP" />
                         </p>
 
-                        <h3><b>Extract Transform Load</b></h3>
+                        <h2><b>Extract Transform Load</b></h2>
                         <p>J'utilise ici une solution ETL de <b>Talend</b> pour effectuer mon intégration de données. Le flux est réalisé sur 
                             <b> Talend Open Studio (TOS)</b>. Pour début le projet sous TOS, je crée une connexion à la base de donnée en métadonnées.
                             Cela me permet d'avoir une connexion configurée dans le contexte global et m'évite à avoir à paramétrer à chaque composant 
                             nécessitant une connexion de base de données.
                         </p>
-                        <h4><b>Les communes et départements</b></h4>
+                        <h3><b>Les communes et départements</b></h3>
                         <p>Je crée un Job pour le flux d'intégration des données de communes et de département. Celui-ci comporte 2 composants <b>tFileInputDelimited </b> 
                              pour chacun de nos fichiers :
                             <ul>
@@ -192,9 +186,9 @@ const AZGEtl = () => {
                             <img src={azg_talend_init} alt="azg_talend_init" />
                         </p>
                         
-                        <h4><b>Les transactions immobilières</b></h4>
+                        <h3><b>Les transactions immobilières</b></h3>
                         
-                        <h5>Particularité des communes :</h5>
+                        <h4>Particularité des communes :</h4>
                         
                         <p>
                             On l'a vu plus haut, les variables sur les communes ne correspondent pas toutes aux références de l'INSEE. J'ai 
@@ -216,7 +210,7 @@ const AZGEtl = () => {
                             <img src={azg_talend_tJavaFlex} alt="azg_talend_tJavaFlex" />
                         </p>
 
-                        <h5>Transactions immobilière :</h5>
+                        <h4>Transactions immobilière :</h4>
                         <p className='azg_talend_init img_mobile text-center'>
                             <img src={azg_talend_input} alt="azg_talend_input" />
                         </p>
@@ -242,7 +236,7 @@ const AZGEtl = () => {
                             Studio et les composants disponibles nativement.
                         </p>
                         
-                        <h3>Visualisation rapide</h3>
+                        <h2>Visualisation rapide</h2>
                         <p className='azg_viz img_mobile text-center'>
                             <img src={AZG_Viz} alt="AZG_Viz" />
                         </p>
@@ -260,7 +254,7 @@ const AZGEtl = () => {
 
                         <hr></hr>
                         <div className="content-about-page text-center">
-                            <h3><b>Vous avez besoin d'un Data Analyst</b></h3>
+                            <h2><b>Vous avez besoin d'un Data Analyst</b></h2>
                             <div className="about-page-contact button" id="show-button">
                                 <button className="btn btn-warning" onClick={showForm}>
                                     Contactez moi
