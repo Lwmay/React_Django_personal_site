@@ -22,6 +22,7 @@ const App = () => {
                 <Route path="/azg_etl" exact component={AZGEtl} />
                 <Route path="/knime_egalite" exact component={KNIME_egalite} />
                 <Route path="/azg_bank" exact component={AZGBank} />
+                <Route path="*" exact component={NotFound} />
                 <Route component={NotFound} />
             </Switch>
         </BrowserRouter>

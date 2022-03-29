@@ -12,7 +12,7 @@ const Home = () => {
                    style={{ backgroundImage: `url(${background})` }}>
                   <div className="content-center">
                       <p>Je suis</p>
-                      <h1 className="title">Laurent May</h1>
+                      <h1 className="title text-center">Laurent May</h1>
                       <h2>Candidat pour un poste de <b>Data Analyst</b> à la Réunion</h2>
                       <div className="home-button">
                           <NavLink exact to="/portfolio" className="nav-link-home">

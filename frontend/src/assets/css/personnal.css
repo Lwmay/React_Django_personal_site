@@ -45,6 +45,10 @@ Material Dashboard Pro - v2.2.1 CSS version
     margin-bottom: 5%;
 }
 
+.error-page .astro img{
+    width: 30%;
+}
+
 .footer-cust .mentions{
     color:darkgrey;
 }
